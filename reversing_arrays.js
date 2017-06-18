@@ -18,9 +18,9 @@ function reverseArray(arrayValue){
 
 function reverseArrayInPlace(arrayValue){
 	for(var i = 0; i < arrayValue.length; i++){
-    	var a = arrayValue[i];
-        arrayValue[i] = arrayValue[arrayValue.length-1-i];
-        arrayValue[arrayValue.length-1-i] = a;
+    	var a = arrayValue[i];//create the dummy value 
+        arrayValue[i] = arrayValue[arrayValue.length-1-i];//start the switch-a-roo
+        arrayValue[arrayValue.length-1-i] = a;//complete the switch-a-roo
     }
 
 }
